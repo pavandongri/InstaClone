@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+.navbar{
+    padding:0 0 5px;
+    top: 0;
+
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 2%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size:1.2rem;
+    font-weight: light;
+}
+
+ .container-fluid{
+    padding: 0;
+} 
+
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    width: 80vw;
+    text-align: center;
+    
+
+}
+
+.greeting{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.greeting h1{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.image{
+    width: 700px;
+    max-height: 700px;
+}
+
+
+
+
+.card{
+    width: 702px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+.delandedit{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+.description{
+ font-size: 1.2rem;    
+}
+
+
+.addpost{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.addDescription{
+    width: 100%;
+}
+
+.searchbox{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 40vw;
+
+}
+
+.search{
+    width:70%;
+    height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.serbtn{
+    margin-bottom: 5;
+}
+
+.del{
+ margin-left: 20px;
+}
+
+.emptyposts{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh;
+  text-align: center;
+  width: 80vw;
+
+}
+
+.mypostadd{
+    text-decoration: none;
+    color: white;
+}
+.mypostadd:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.like{
+    margin-right: 8px;
+    font-size: 0.8rem;
+}
+
+.fa-edit{
+    pointer-events: none;
+}
+.fa-trash-alt{
+    pointer-events: none;
+}
+.fa-google{
+    margin: left 10px; ;
+}
+
+.love{
+    color: #F91A47;
+}
+
+@media (max-width: 600px ) {
+    
+    .card{
+        width: 100vw;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 15px;
+        position: relative;
+    }
+
+    .image{
+        width: 100vw;
+        max-height: 700px;
+    }
+
+    .greeting{
+        width:100vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .searchbox{
+        margin-top: 5vh;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        width: 80vw;
+    
+    }
+    .search{
+        width:80%;
+        height: 45px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+
+}
